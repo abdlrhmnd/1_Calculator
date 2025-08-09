@@ -48,12 +48,20 @@ int fun5(int a, int b)
 //      Created By Sameh Nasrallah
 
 // 		6- Power (x^y)
-// int fun6()
-// {
+int fun6(int a, int b)
+{
+    int result = 1;
+    if (b < 0) {
+        cout << "Power: Undefined for negative exponent" << endl;
+        return 0;
+    }
+    for (int i = 0; i < b; i++)
+        result *= a;
+    cout << "Power: ";
+    return result;
+}
 
-//     return ;
-// }
-//      Created By
+// Created By Abdlrhmn Diab
 
 // 		The Main Function
 int main()
@@ -67,9 +75,9 @@ int main()
     cout << fun3(X, Y) << endl; // Multiplication
     cout << fun4(X, Y) << endl; // Division
     cout << fun5(X, Y) << endl; // Modulus
+    cout << fun6(X, Y) << endl; // Power
 
     return 0;
 }
 //      Created By Sameh Nasrallah
-
-//      Created By Tech-Titans Team 
+//      Created By Tech-Titans Team
