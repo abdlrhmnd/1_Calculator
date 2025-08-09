@@ -6,3 +6,4 @@
 
 3- Sameh Nasrallah : Created Modulus And Main Functions 
 
+4- Abdlrhmn Diab : Added power function.
